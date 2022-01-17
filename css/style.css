@@ -453,6 +453,7 @@ img {
 
 .card .festivals.second {
         margin-top: -50px;
+        line-height: 30px;
 }
 
 .buttonFestival {
@@ -693,6 +694,8 @@ footer .Copyright .bahasa {
         cursor: pointer;
 }
 
+/* Responsive */
+
 @media (max-width:1100px) {
 footer .content .middle{
         padding-left: 50px;
@@ -707,21 +710,18 @@ footer .content .box{
 }
 }
 @media (max-width:560px){
-footer{
-        position: relative;
+        footer{
+                position: relative;
+        }
+        footer .content .box{
+                width: 100%;
+                margin-top: 30px;
+        }
+        footer .content .middle{
+                padding-left: 0;
+        }
 }
-footer .content .box{
-        width: 100%;
-        margin-top: 30px;
-}
-footer .content .middle{
-        padding-left: 0;
-}
-}
-/* Footer */
 
-
-/* Responsive Media Querry */
 @media only screen and (max-width: 768px) {
         .nav-menu {
                 position: absolute;
