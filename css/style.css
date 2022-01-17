@@ -413,11 +413,12 @@ img {
 
 .card .hr {
         margin-top: 50px;
-        border: 1px solid var(--color6);
+        background-color: #ff0000;
+        border: 2px solid var(--color6);
         width: 100%;
 }
 .card .AllImg {
-        width: auto;
+        width: 1350px;
         padding-top: 50px;
         height: auto;
 }
