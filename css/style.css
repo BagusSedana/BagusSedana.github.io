@@ -388,9 +388,9 @@ section {
     align-items: center;
   }
 
-  .home .content .destination img {
+  /* .home .content .destination img {
     width: 60%;
-  }
+  } */
 
   .btnReadMore {
     display: none;
