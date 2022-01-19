@@ -350,7 +350,7 @@ section {
 
   .hamburger {
     left: 50%;
-    top: 8px;
+    top: 5px;
     width: 20px;
   }
 
@@ -394,5 +394,9 @@ section {
 
   .btnReadMore {
     display: none;
+  }
+
+  .nav-menu {
+    margin-top: -1%;
   }
 }
