@@ -227,8 +227,16 @@ section {
 
 /* Responsive for SmartPhone */
 @media only screen and (max-width: 1200px) {
-  html {
-    font-size: 55%;
+  section {
+    margin: 3rem 0;
+  }
+
+  .home .content .explore {
+    font-size: 50px;
+  }
+
+  .btnReadMore {
+    display: none;
   }
 }
 
@@ -256,6 +264,10 @@ section {
   .btnReadMore {
     padding: 10px 20px;
     font-size: 15px;
+  }
+
+  .home .content .destination #active1 {
+    border: none;
   }
 }
 
@@ -334,8 +346,16 @@ section {
     margin-bottom: 30px;
   }
 
+  .home .destination img {
+    width: 30%;
+  }
+
   .btnReadMore {
     margin-left: 41%;
+  }
+
+  .home .content .destination #active1 {
+    border: none;
   }
 }
 
@@ -388,9 +408,13 @@ section {
     align-items: center;
   }
 
-  /* .home .content .destination img {
+  .home .content .destination img {
     width: 60%;
-  } */
+  }
+
+  .home .content .destination #active1 {
+    border: none;
+  }
 
   .btnReadMore {
     display: none;
